@@ -1,12 +1,11 @@
 var baseUrl = "http://i.imgur.com/";
 var wooting = true;
- //Potion
+
 function startWooting() {
         stopWooting();
  
         API.on(API.DJ_ADVANCE, DJ_ADVANCE_LISTENER);
         wootSong();
-        API.sendChat('Potion Woot v1 Active');
         var css = document.createElement("style");
         css.type = "text/css";
         css.setAttribute('id', 'autowooter-css');
